@@ -1,0 +1,30 @@
+{
+  "name": "vue-quill-filemanager",
+  "version": "0.0.6",
+  "private": false,
+  "files": [
+    "dist"
+  ],
+  "main": "dist/vue-quill-filemanager.umd.js",
+  "module": "dist/vue-quill-filemanager.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-quill-filemanager.es.js",
+      "require": "./dist/vue-quill-filemanager.umd.js"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
+  "dependencies": {
+    "vue": "^3.3.11",
+    "vue-final-modal": "^3.4.11",
+    "@vueup/vue-quill": "^1.2.0",
+    "axios": "^0.26.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "@vue/test-utils": "^2.4.3",
+    "jsdom": "^23.0.1",
+    "vite": "^5.0.10",
+    "vitest": "^1.0.4"
+  }
+}
